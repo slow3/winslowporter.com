@@ -1,133 +1,194 @@
-﻿<!doctype html>
-<html lang="en">
+<!doctype html>
+<html lang="en" id="top">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Winslow Porter | XR Producer</title>
-  <meta name="description" content="Official portfolio site for Winslow Porter: bio, immersive projects, videos, and skills.">
+  <title>Winslow Porter | Immersive Producer and Creative Technologist</title>
+  <meta name="description" content="Portfolio of Winslow Porter: immersive productions, XR storytelling, and project highlights including Giant, Tree, CLOUDS, and Forager.">
+  <meta name="theme-color" content="#f25c2a">
+  <meta property="og:title" content="Winslow Porter | Immersive Producer and Creative Technologist">
+  <meta property="og:description" content="Immersive projects where cinema, interaction design, and real-time technology meet.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/winslow-porter-tree.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Winslow Porter",
+      "jobTitle": "Producer and Creative Technologist",
+      "knowsAbout": ["XR", "VR", "AR", "Immersive Storytelling"],
+      "sameAs": [
+        "https://www.onassis.org/people/winslow-porter",
+        "https://giantofficial.com/",
+        "https://www.treeofficial.com/",
+        "https://cloudsdocumentary.com/",
+        "https://www.forager.earth/"
+      ]
+    }
+  </script>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to main content</a>
-  <div class="grain" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header class="topbar">
-    <a class="logo" href="#top">Winslow Porter</a>
-    <nav aria-label="Main">
-      <a href="#bio">Bio</a>
-      <a href="#skills">Skills</a>
-      <a href="#work">Work</a>
-      <a href="#video">Video</a>
-    </nav>
+  <div class="atmosphere" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="grid"></span>
+  </div>
+
+  <header class="site-header" aria-label="Site header">
+    <div class="site-header__inner">
+      <a class="brand" href="#top" aria-label="Back to top">Winslow Porter</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#process">Process</a>
+        <a href="#screenings">Screenings</a>
+      </nav>
+    </div>
   </header>
 
   <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Immersive Storytelling / XR</p>
-        <h1>Building emotional experiences where cinema and real-time technology collide.</h1>
-        <p>
-          Winslow Porter is a New York based producer and creative technologist, co-founding New Reality Company and helping shape acclaimed immersive projects including
-          <em>Giant</em>, <em>Tree</em>, <em>CLOUDS</em>, and <em>Forager</em>.
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero__content reveal">
+        <p class="kicker">XR Producer and Creative Technologist</p>
+        <h1 id="hero-title">Immersive stories that move people, not just pixels.</h1>
+        <p class="lede">
+          Winslow Porter builds narrative experiences at the intersection of cinema, interaction, and real-time systems. Selected work includes <em>Giant</em>, <em>Tree</em>, <em>CLOUDS</em>, and <em>Forager</em>.
         </p>
-        <div class="cta-row">
-          <a class="btn" href="#work">Explore Projects</a>
-          <a class="btn ghost" href="#video">Watch Videos</a>
+        <div class="hero__actions">
+          <a class="button" href="#work">Explore Work</a>
+          <a class="button button--ghost" href="#screenings">Watch Clips</a>
         </div>
       </div>
-      <figure class="hero-portrait reveal">
-        <img src="assets/img/winslow-porter-tree.jpg" alt="Winslow Porter portrait" width="700" height="981" loading="eager">
+      <figure class="hero__image reveal">
+        <img src="assets/img/winslow-porter-tree.jpg" alt="Portrait of Winslow Porter" width="700" height="981" loading="eager" decoding="async">
       </figure>
-      <div class="hero-bg" aria-hidden="true"></div>
     </section>
 
-    <section id="bio" class="panel reveal">
-      <h2>Bio</h2>
-      <p>
-        Winslow Porter produces immersive media that blends narrative design, technical experimentation, and social impact. His work spans VR, AR, mixed reality, and film installations,
-        with recurring themes around empathy, environmental awareness, and embodied audience participation.
-      </p>
-      <p>
-        Public profiles and project credits list him as producer/co-creator of <em>Giant</em> and <em>Tree</em>, co-founder/executive producer at New Reality Company,
-        and collaborator on <em>CLOUDS</em> and <em>Forager</em>.
-      </p>
+    <section id="about" class="section card reveal" aria-labelledby="about-title">
+      <div class="card__head">
+        <h2 id="about-title">About</h2>
+      </div>
+      <div class="split">
+        <p>
+          Based in New York, Winslow Porter produces works that blend narrative design, technical experimentation, and social impact. His projects emphasize embodiment, empathy, and environmental awareness through VR, AR, and mixed reality.
+        </p>
+        <ul class="list-clean key-points" aria-label="Core strengths">
+          <li>Immersive production leadership from concept to release.</li>
+          <li>Cross-disciplinary collaboration across artists, technologists, and institutions.</li>
+          <li>Story-first prototyping with real-time media pipelines.</li>
+        </ul>
+      </div>
     </section>
 
-    <section id="skills" class="panel reveal">
-      <h2>Skills</h2>
-      <ul class="chips" aria-label="Winslow Porter skill set">
-        <li>Immersive Production</li>
-        <li>Creative Technology</li>
-        <li>Real-time Story Systems</li>
-        <li>Spatial Media Pipelines</li>
-        <li>Festival Strategy</li>
-        <li>Team Leadership</li>
-        <li>Brand + Artist Collaboration</li>
-        <li>Narrative Prototyping</li>
-      </ul>
-    </section>
+    <section id="work" class="section card reveal" aria-labelledby="work-title">
+      <div class="card__head card__head--stack-mobile">
+        <h2 id="work-title">Selected Work</h2>
+        <div class="filters" role="toolbar" aria-label="Filter projects">
+          <button class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="vr" aria-pressed="false">VR/XR</button>
+          <button class="chip" data-filter="documentary" aria-pressed="false">Documentary</button>
+          <button class="chip" data-filter="environmental" aria-pressed="false">Environmental</button>
+        </div>
+      </div>
 
-    <section id="work" class="panel reveal">
-      <h2>Selected Work</h2>
-      <div class="grid">
-        <article class="project">
-          <img src="assets/img/giant-fb.png" alt="Giant VR artwork" width="1200" height="630" loading="lazy">
-          <div>
+      <div class="projects" id="project-list">
+        <article class="project" data-tags="vr environmental">
+          <img src="assets/img/giant-fb.png" alt="Artwork from Giant" width="1200" height="630" loading="lazy" decoding="async">
+          <div class="project__body">
             <h3>Giant</h3>
-            <p>VR short inspired by real events. Winslow Porter credited as producer and co-creator.</p>
+            <p>VR short inspired by real events, with Winslow Porter credited as producer and co-creator.</p>
             <a href="https://giantofficial.com/" target="_blank" rel="noreferrer">Visit project</a>
           </div>
         </article>
-        <article class="project">
-          <img src="assets/img/tree-support.jpg" alt="Tree visual" width="1920" height="1080" loading="lazy">
-          <div>
+
+        <article class="project" data-tags="vr environmental">
+          <img src="assets/img/tree-support.jpg" alt="Still from Tree" width="1920" height="1080" loading="lazy" decoding="async">
+          <div class="project__body">
             <h3>Tree</h3>
-            <p>Embodied environmental XR piece where viewers experience life as a rainforest tree.</p>
+            <p>Embodied XR experience where participants live the lifecycle of a rainforest tree.</p>
             <a href="https://www.treeofficial.com/" target="_blank" rel="noreferrer">Visit project</a>
           </div>
         </article>
-        <article class="project">
-          <img src="assets/img/clouds-fb.jpg" alt="CLOUDS documentary artwork" width="1200" height="630" loading="lazy">
-          <div>
+
+        <article class="project" data-tags="documentary">
+          <img src="assets/img/clouds-fb.jpg" alt="CLOUDS documentary art" width="1200" height="630" loading="lazy" decoding="async">
+          <div class="project__body">
             <h3>CLOUDS</h3>
-            <p>Seminal documentary exploring the culture and creators of creative coding.</p>
+            <p>Landmark documentary exploring creative coding and the artists building digital culture.</p>
             <a href="https://cloudsdocumentary.com/" target="_blank" rel="noreferrer">Visit project</a>
           </div>
         </article>
-        <article class="project">
-          <img src="assets/img/forager-c1.png" alt="Forager artwork" width="2500" height="1406" loading="lazy">
-          <div>
+
+        <article class="project" data-tags="vr environmental">
+          <img src="assets/img/forager-c1.png" alt="Still from Forager" width="2500" height="1406" loading="lazy" decoding="async">
+          <div class="project__body">
             <h3>Forager</h3>
-            <p>Immersive storytelling project highlighted in recent festival programming.</p>
+            <p>Immersive narrative project featured in festival programming and experiential showcases.</p>
             <a href="https://www.forager.earth/" target="_blank" rel="noreferrer">Visit project</a>
           </div>
         </article>
       </div>
     </section>
 
-    <section id="video" class="panel reveal">
-      <h2>Video</h2>
+    <section id="process" class="section card reveal" aria-labelledby="process-title">
+      <div class="card__head">
+        <h2 id="process-title">Process</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <h3>1. Discover</h3>
+          <p>Define emotional arc, audience role, and why the experience must be spatial.</p>
+        </li>
+        <li>
+          <h3>2. Prototype</h3>
+          <p>Build quick interaction and narrative tests to validate embodiment and pacing.</p>
+        </li>
+        <li>
+          <h3>3. Produce</h3>
+          <p>Ship polished work through cross-functional production, festival strategy, and partnerships.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="screenings" class="section card reveal" aria-labelledby="screenings-title">
+      <div class="card__head">
+        <h2 id="screenings-title">Screenings and Clips</h2>
+      </div>
       <div class="video-grid">
         <article>
           <h3>Tree Trailer</h3>
-          <div class="frame"><iframe src="https://www.youtube.com/embed/ERffRXjTAqM" title="Tree trailer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          <div class="frame">
+            <iframe src="https://www.youtube.com/embed/ERffRXjTAqM" title="Tree trailer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </article>
+
         <article>
           <h3>CLOUDS Trailer</h3>
-          <div class="frame"><iframe src="https://player.vimeo.com/video/917357948" title="CLOUDS trailer" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+          <div class="frame">
+            <iframe src="https://player.vimeo.com/video/917357948" title="CLOUDS trailer" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </article>
+
         <article>
           <h3>The Art of Creative Coding</h3>
-          <div class="frame"><iframe src="https://www.youtube.com/embed/eBV14-3LT-g" title="The Art of Creative Coding" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+          <div class="frame">
+            <iframe src="https://www.youtube.com/embed/eBV14-3LT-g" title="The Art of Creative Coding" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="panel sources reveal">
-      <h2>Sources</h2>
+    <section class="section card sources reveal" aria-labelledby="sources-title">
+      <div class="card__head">
+        <h2 id="sources-title">Sources</h2>
+      </div>
       <ul>
         <li><a href="https://www.onassis.org/people/winslow-porter" target="_blank" rel="noreferrer">Onassis profile</a></li>
         <li><a href="https://giantofficial.com/" target="_blank" rel="noreferrer">Giant Official</a></li>
@@ -138,7 +199,7 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="site-footer">
     <p>Winslow Porter Portfolio <span id="year"></span></p>
   </footer>
 
